@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>MCOI更新、通知界面</title>
+		<script type="text/javascript">
+			function turn_to_mcoi(){
+				location.href = "http://43.139.175.183/";
+			}
+		</script>
 		<style type="text/css">
 			body{
 				background-color:#bed2bb;
@@ -13,17 +18,32 @@
 			p{
 				color:#226b68;
 			}
+			button{
+			    background-color: #92905d; /* Green */
+			    border: none;
+			    color: white;
+			    padding: 15px 32px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			    margin: 4px 2px;
+			    cursor: pointer;
+				border-radius: 12px;
+			}
 		</style>
 	</head>
 	<body>
 		<h1 style="color:#003d74">
 			MCOI更新日志：
 		</h1>
+		<button onclick="turn_to_mcoi()">点击前往MCOI网站</button>
 		<h2>
 			22/11/29:
 		</h2>
 		<p style="color:#226b68">
 			上线了更新日志系统！（感谢github.io提供的html托管服务）
 		</p>
+		
 	</body>
 </html>
